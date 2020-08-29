@@ -1,0 +1,41 @@
+.logo {
+    height: 100px;
+    padding: 20;
+}
+
+.logoConteiner {
+    width: 150;
+    display: inline-block;
+}
+
+.productsMenu {
+    padding: 80px;
+    padding-left: 20px;
+}
+
+.minion1 {
+    height: 250px;
+    padding: 100;
+    padding-top: 0;
+    padding-left: 40px;
+    padding-bottom: 25;
+}
+
+.reserveConteiner {
+    padding-left: 61px;
+    padding-top: 0;
+    text-align: center;
+    width: 145px;
+}
+
+.logoName {
+    padding: 20;
+    padding-top: 0;
+}
+
+.email {
+    display: inline-block;
+    vertical-align: top;
+    padding: 25;
+    padding-left: 700px;
+}
