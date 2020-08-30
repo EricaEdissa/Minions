@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="logoConteiner">
+        <img src="logo.png" alt="logo" className="logo" />
+        <div className="logoName">Minions reserva</div>
+      </div>
+
+      <div className="email">e-mail <input type="email" /></div>
+      <div className="productsMenu">PRODUTOS - minions</div>
+      <img src="minion1.png" alt="Produto minion1" className="minion1" />
+
+      <div className="reserveConteiner">
+          <div>produto 1 - definição</div>
+          <input type="button" value="RESERVAR"/>
+      </div>
     </div>
   );
 }

@@ -1,38 +1,45 @@
-.App {
+.logo {
+  height: 100px;
+  padding: 20px;
+}
+
+.logoConteiner {
+  width: 150px;
+  display: inline-block;
+}
+
+.productsMenu {
+  padding: 80px;
+  padding-left: 20px;
+}
+
+.minion1 {
+  height: 250px;
+  padding: 100px;
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-bottom: 25px;
+}
+
+.reserveConteiner {
+  padding-left: 61px;
+  padding-top: 0px;
   text-align: center;
+  width: 145px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoName {
+  padding: 20px;
+  padding-top: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.email {
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px;
+  padding-left: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  padding: 20px;
 }
