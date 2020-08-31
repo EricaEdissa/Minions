@@ -1,14 +1,14 @@
 import React from 'react';
+import axios from 'axios';
 import './App.css';
 
-function reservar() {
-  
+function reserve() {
   if (document.getElementById("email").value === "") {
-    alert("Preencha o campo \"email\" para completar a reserva!")
+        alert("Preencha o campo \"email\" para completar a reserva!")
   } else {
-    alert("Produto reservado!")
+    axios.get("http://localhost:3001/reserve")
+      .then(res => alert(res.data.message))
   }
-
 }
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 
       <div className="reserveConteiner">
           <div>produto 1 - definição</div>
-          <input type="button" value="RESERVAR" onClick={() => reservar()}/>
+          <input type="button" value="RESERVAR" onClick={() => reserve()}/>
       </div>
     </div>
   );
