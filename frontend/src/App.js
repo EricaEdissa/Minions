@@ -3,7 +3,7 @@ import './App.css';
 
 function reservar() {
   
-  if (document.getElementById("email").value == "") {
+  if (document.getElementById("email").value === "") {
     alert("Preencha o campo \"email\" para completar a reserva!")
   } else {
     alert("Produto reservado!")
